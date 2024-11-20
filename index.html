@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BanCoop - Tu Banco de Confianza</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo (2).png" alt="Logo de BanCoop" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="creditos.html">Créditos</a></li>
+                    <li><a href="leasing.html">Leasing</a></li>
+                    <li><a href="ahorros.html">Ahorros</a></li>
+                    <li><a href="servicio_cliente.html">Servicio al Cliente</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <aside>
+            <h2>Acceso Rápido</h2>
+            <h3>Ingresa a tu Cuenta</h3>
+            <form action="ruta_de_tu_proceso_de_login" method="POST">
+                <label for="cuenta">Cuenta:</label>
+                <input type="text" id="cuenta" name="cuenta" required>
+                
+                <label for="tipo">Tipo:</label>
+                <select id="tipo" name="tipo" required>
+                    <option value="ahorros">Ahorros</option>
+                    <option value="corriente">Corriente</option>
+                </select>
+                
+                <label for="clave">Clave:</label>
+                <input type="password" id="clave" name="clave" required>
+                
+                <button type="submit">Ingresar</button>
+            </form>
+
+            <h3>Información de Transacciones</h3>
+            <ul>
+                <li>Banca Personal</li>
+                <li>Banca Empresarial</li>
+                <li>Banca Seguro</li>
+                <li>Pago de Facturas</li>
+            </ul>
+
+            <h3>Información de Tarjetas de Crédito</h3>
+            <ul>
+                <li>Tarjeta de Crédito</li>
+                <li>Credi Visa</li>
+                <li>Credi Mastercard</li>
+            </ul>
+        </aside>
+
+        <section id="productos">
+            <h2>Productos de BanCoop</h2>
+
+            <article>
+                <h3>Créditos Personales</h3>
+                <img src="creditos personales.jpeg" alt="Créditos Personales">
+                <p>Nuestros créditos personales ofrecen tasas competitivas y flexibilidad en los pagos. Ideal para cualquier proyecto personal que tengas.</p>
+                <a href="https://www.bancolombia.com/personas/creditos" target="_blank">Más información</a>
+            </article>
+
+            <article>
+                <h3>Leasing Financiero</h3>
+                <img src="leasing.jpeg" alt="Leasing Financiero">
+                <p>Con nuestras opciones de leasing, puedes adquirir bienes de manera accesible sin necesidad de una compra inmediata.</p>
+                <a href="https://www.bancolombia.com/negocios/productos/financiacion/leasing/financiero" target="_blank">Más información</a>
+            </article>
+
+            <article>
+                <h3>Cuentas de Ahorro</h3>
+                <img src="cuenta de ahorros.jpeg" alt="Cuentas de Ahorro">
+                <p>Aprovecha nuestras cuentas de ahorro con altos intereses y sin comisiones. Ahorra para el futuro de manera segura.</p>
+                <a href="https://www.bancolombia.com/personas/cuentas/ahorros-y-corriente/cuenta-ahorros" target="_blank">Más información</a>
+            </article>
+
+            <article>
+                <h3>Tarjetas de Crédito</h3>
+                <img src="tarjeta credito.jpeg" alt="Tarjetas de Crédito">
+                <p>Ofrecemos tarjetas de crédito con beneficios exclusivos y planes de recompensas. Maneja tus compras con comodidad.</p>
+                <a href="https://www.bancolombia.com/personas/tarjetas-de-credito" target="_blank">Más información</a>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <h4>Contacto</h4>
+            <p>Teléfono: 555-1234</p>
+            <p>Email: contacto@bancoop.com</p>
+            <p>Dirección: Calle Ejemplo 123, Ciudad</p>
+            <p>&copy; 2024 BanCoop. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
